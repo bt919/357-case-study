@@ -1,8 +1,44 @@
+"use client";
+import { useState } from "react";
+
 import Image from "next/image";
 
 export default function Home() {
+  const [isLight, setIsLight] = useState(true);
+
+  const toggle = () => {
+    document.querySelector("html")?.classList.toggle("dark");
+    setIsLight(!isLight);
+  };
+
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 bg-gray-200 text-slate-900 dark:bg-slate-800 dark:text-gray-200">
+    <div className="flex min-h-screen flex-col items-center p-24 pt-4 bg-gray-200 text-slate-900 dark:bg-slate-800 dark:text-gray-200">
+      <div className="w-full flex justify-end gap-4">
+        <a href="https://github.com/bt919/357-case-study" target="_blank">
+          <img
+            className="h-8 w-8"
+            src={isLight ? "/github-mark.svg" : "/github-mark-white.svg"}
+            alt="click to view github repo"
+          ></img>
+        </a>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-8 h-8"
+          onClick={() => toggle()}
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+          />
+        </svg>
+      </div>
+
       <h1 className="text-4xl text-purple-700 dark:text-cyan-200">
         Case Study: How UI/UX Can Help The Elderly
       </h1>
@@ -29,7 +65,7 @@ export default function Home() {
           Introduction
         </h2>
 
-        <p className="indent-12 text-lg p-4 pl-0">
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
           As the field of medicine advances, the average life expectancy goes
           up, and just in the past 60 years or so, the average life expectancy
           has gone up by over 10 years. [1] As a result, the elderly population
@@ -37,7 +73,7 @@ export default function Home() {
           growing number of issues.
         </p>
 
-        <p className="indent-12 text-lg p-4 pl-0">
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
           Around 1 in 5 elderly Canadians feel lonely, and this trend only gets
           worse as one ages. [2] To make matters worse, covid-19 exacerbated
           these issues during lockdowns. [3] Loneliness is also linked to
@@ -49,7 +85,7 @@ export default function Home() {
           disability. [5]
         </p>
 
-        <p className="indent-12 text-lg p-4 pl-0">
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
           It isn&apos;t all gloom though. Technology has been advancing rapidly,
           and this has given rise to assistive technology. Furthermore, more and
           more of the elderly population have been using technologies such as
@@ -60,9 +96,9 @@ export default function Home() {
           and that is what we sought out to explore.
         </p>
 
-        <p className="indent-12 text-lg p-4 pl-0">
-          appname is a mobile application that seeks to solve some of the issues
-          we outlined above. appname allows an elderly person to register onto
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Helm365 is a mobile application that seeks to solve some of the issues
+          we outlined above. Helm365 allows an elderly person to register onto
           the app, and for their caretakers and loved ones to also register
           through the app so you can keep an eye out for those you care. The app
           reminds users to take medications, exercise, and eat regularly. The
@@ -71,8 +107,8 @@ export default function Home() {
           there are irregularities in activities.
         </p>
 
-        <p className="indent-12 text-lg p-4 pl-0">
-          appname was also designed with accessibility in mind. Features such as
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Helm365 was also designed with accessibility in mind. Features such as
           larger text, text-to-speech, and good contrast ratio allows those who
           are visually impaired to interact with the app more easily.
           Furthermore, Usability is prioritized by using UI/UX design patterns
@@ -90,7 +126,7 @@ export default function Home() {
             The Elderly, Disabilities, and Daily Challenges
           </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             Let us now turn our focus to what the current research says. We
             delved into some of the research in the introduction, but we wanted
             to gain a better understanding of our users, and we also wanted to
@@ -99,21 +135,21 @@ export default function Home() {
             application to our users, and it is crucial for crafting accurate
             user personas which we will be doing later.
           </p>
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             Around 14% of seniors (age 65 and up) in Canada live in some kind of
             long-term care home. [7] Statcan data also reports many older people
             living alone -- up to 36.6% of Canadian women over the age of 85
             live alone, and up to 21.8% of Canadian men over the age of 85 live
             alone. [8]
           </p>
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             In terms of daily struggles, medications, personal care, and
             nutrition are common challenges the elderly face. More specifically,
             getting refills for medication can be tough, and so is taking
             medication regularly. In terms of nutrition, eating healthy meals
             and doing so regularly can be a challenge. [9]
           </p>
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             Let us now look at some of the physical, neurological, and
             psychological issues that the elderly face. As we mentioned before,
             the disability rates are high amongst the elderly as the graph below
@@ -124,7 +160,7 @@ export default function Home() {
             mentioned, and even meals can be missed. Research also says that
             nearly half of the senior population (60 and over) reported feeling
             lonely, and about 25% even felt isolated. [10] The express purpose
-            of appname is to address these issues by letting those close to the
+            of Helm365 is to address these issues by letting those close to the
             elderly have an easier way to help and monitor them. We will discuss
             the user requirements and features more closely in a bit.
           </p>
@@ -134,7 +170,7 @@ export default function Home() {
             alt="A graph that shows the positive correlation between age and disability rate"
           ></img>
           <p>Disability rates by age group [5]</p>
-          <p className="indent-12 text-lg p-4 pl-0 mt-8">
+          <p className="indent-12 text-lg p-4 pl-0 mt-8 leading-8">
             Finally, we note that nearly 17% of the U.S. population provide some
             kind of care for someone they know (typically for loved ones), and
             half of the recipients are parents. Some more interesting things to
@@ -148,13 +184,13 @@ export default function Home() {
             Mobile Applications On the Market Today
           </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             Let us conclude our research by looking at the current mobile
             applications available on the market, and exploring the pros and
             cons of these apps.
           </p>
 
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             If we take a look at the iPhones, we could see a myriad of apps that
             are already pre-installed. For example, there is the health app
             which keeps track of your steps, your resting heart rate (if you
@@ -165,7 +201,7 @@ export default function Home() {
             available to android users.
           </p>
 
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             We also sought out apps that work on both androids and iPhones, and
             we found Life360 and Medisafe Pill Reminder. Life360 has live
             location tracking which is one of the features we want to provide.
@@ -174,7 +210,7 @@ export default function Home() {
             pills, or if they ran out and need a refill.
           </p>
 
-          <p className="indent-12 text-lg p-4 pl-0">
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
             One improvement we hope to bring with our app is an all-in-one
             solution. Some of the apps mentioned above have excellent features,
             and do what they intend to do very well, but there are learning
@@ -188,6 +224,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
