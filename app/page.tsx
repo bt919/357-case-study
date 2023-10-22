@@ -10,6 +10,20 @@ export default function Home() {
       <p className="m-2 text-lg">first_name last_name student_id</p>
       <p className="mb-4 text-lg">first_name last_name student_id</p>
 
+      <img
+        className="visible dark:hidden"
+        src="light_hero.png"
+        alt="A hero section that talks about Helm365, which is an app that helps you 
+        keep in touch with elderly people that you are taking care of."
+      ></img>
+
+      <img
+        className="hidden dark:block"
+        src="dark_hero.png"
+        alt="A hero section that talks about Helm365, which is an app that helps you 
+        keep in touch with elderly people that you are taking care of."
+      ></img>
+
       <div className="w-2/3">
         <h2 className="m-10 mb-4 ml-0 text-3xl text-purple-700 dark:text-cyan-200">
           Introduction
