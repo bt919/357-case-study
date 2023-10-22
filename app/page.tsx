@@ -182,7 +182,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* ----------- Other apps subsection -------------*/}
+        {/* ----------- Mobile apps subsection -------------*/}
         <div className="flex flex-col items-center">
           <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
             Mobile Applications On the Market Today
@@ -227,197 +227,237 @@ export default function Home() {
             lets you do many of the things outlined above.
           </p>
         </div>
+      </div>
 
-        {/* ----------- User Personas section -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
-            User Personas
-          </h3>
+      {/* ----------- User Personas section -------------*/}
+      <div className="w-2/3">
+        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
+          User Personas
+        </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
-          </p>
-        </div>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Let us conclude our research by looking at the current mobile
+          applications available on the market, and exploring the pros and cons
+          of these apps.
+        </p>
+      </div>
 
-        {/* ----------- Requirements section -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
-            Requirements
-          </h3>
+      {/* ----------- Requirements section -------------*/}
+      <div className="w-2/3">
+        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
+          Requirements
+        </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
-          </p>
-        </div>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          With the research and the user personas above in mind, let us consider
+          the functional and non-functional requirements of Helm365. The
+          features we want to provide aim to improve health, and reduce
+          loneliness; we also provide some features to let caretakers know if
+          they should check up on users. Here are some features (functional
+          requirements):
+        </p>
+        <ul className="list-disc ml-24 flex flex-col gap-2">
+          <li>
+            Sign up and log in as either a caretaker or as an elderly user.
+          </li>
+          <li>Set reminders to take pills, and track them also.</li>
+          <li>
+            Optionally receive reminders to eat and exercise, and you can track
+            these activities too.
+          </li>
+          <li>Caretakers are alerted if pills or meals are skipped.</li>
+          <li>Location tracking is available for caretakers.</li>
+          <li>Check-ins are possible via video calls.</li>
+        </ul>
 
-        {/* ----------- Wireframes section -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
-            Wireframes
-          </h3>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8 mt-2">
+          Here are the non-functional requirements which also includes UI/UX
+          design choices that improve accessibility and usability (which is
+          important when we consider that our target demographic consists of the
+          elderly):
+        </p>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
-          </p>
-        </div>
+        <ul className="list-disc ml-24 flex flex-col gap-2">
+          <li>
+            Appropriate contrast ratio between fonts and backgrounds (contrast
+            checkers can be used for this).
+          </li>
+          <li>
+            Larger text with appropriate line height which improves readability.
+          </li>
+          <li>
+            Minimalist design which includes ample whitespace and simple
+            designs.
+          </li>
+          <li>
+            Simplified navigation which lets users move through the app with
+            ease.
+          </li>
+        </ul>
+      </div>
 
-        {/* ----------- User Flow section -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
-            User Flow
-          </h3>
+      {/* ----------- Wireframes section -------------*/}
+      <div className="w-2/3">
+        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
+          Wireframes
+        </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
-          </p>
-        </div>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Let us conclude our research by looking at the current mobile
+          applications available on the market, and exploring the pros and cons
+          of these apps.
+        </p>
+      </div>
 
-        {/* ----------- Mockup section -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
-            Mockup
-          </h3>
+      {/* ----------- User Flow section -------------*/}
+      <div className="w-2/3">
+        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
+          User Flow
+        </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
-          </p>
-        </div>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Let us conclude our research by looking at the current mobile
+          applications available on the market, and exploring the pros and cons
+          of these apps.
+        </p>
+      </div>
 
-        {/* ----------- Conclusion section -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
-            Conclusion
-          </h3>
+      {/* ----------- Mockup section -------------*/}
+      <div className="w-2/3">
+        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
+          Mockup
+        </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
-          </p>
-        </div>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Let us conclude our research by looking at the current mobile
+          applications available on the market, and exploring the pros and cons
+          of these apps.
+        </p>
+      </div>
 
-        {/* ----------- Citations -------------*/}
-        <div className="flex flex-col items-center mt-8">
-          <h3 className="mt-8 text-2xl text-purple-500 dark:text-cyan-400 underline underline-offset-3">
-            Citations
-          </h3>
+      {/* ----------- Conclusion section -------------*/}
+      <div className="w-2/3">
+        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
+          Conclusion
+        </h3>
 
-          <p className="text-lg p-4 pl-0 leading-8">
-            Below are the articles and studies we used for the research portion
-            of the project.
-          </p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Let us conclude our research by looking at the current mobile
+          applications available on the market, and exploring the pros and cons
+          of these apps.
+        </p>
+      </div>
 
-          <ol className="list-decimal text-blue-500 flex flex-col gap-3">
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.macrotrends.net/countries/CAN/canada/life-expectancy"
-              target="_blank"
-            >
-              <li>Canada Life Expectancy 1950-2023</li>
-            </a>
+      {/* ----------- Citations -------------*/}
+      <div className="w-2/3 flex flex-col items-center mt-8">
+        <h3 className="mt-8 text-3xl text-purple-700 dark:text-cyan-200 underline underline-offset-3">
+          Citations
+        </h3>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www150.statcan.gc.ca/n1/pub/82-003-x/2023007/article/00001-eng.htm"
-              target="_blank"
-            >
-              <li>Immigrant Status and Loneliness Among Older Canadians</li>
-            </a>
+        <p className="text-lg p-4 pl-0 leading-8">
+          Below are the articles and studies we used for the research portion of
+          the project.
+        </p>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.apa.org/news/press/releases/2022/05/covid-19-increase-loneliness"
-              target="_blank"
-            >
-              <li>
-                COVID-19 Pandemic Led to Increase in Loneliness Around the World
-              </li>
-            </a>
+        <ol className="list-decimal text-blue-500 flex flex-col gap-3">
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.macrotrends.net/countries/CAN/canada/life-expectancy"
+            target="_blank"
+          >
+            <li>Canada Life Expectancy 1950-2023</li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6179015/"
-              target="_blank"
-            >
-              <li>The Complexity of Loneliness</li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www150.statcan.gc.ca/n1/pub/82-003-x/2023007/article/00001-eng.htm"
+            target="_blank"
+          >
+            <li>Immigrant Status and Loneliness Among Older Canadians</li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.canada.ca/en/employment-social-development/programs/disability/arc/federal-report2011/section1.html"
-              target="_blank"
-            >
-              <li>Federal Disability Report 2011</li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.apa.org/news/press/releases/2022/05/covid-19-increase-loneliness"
+            target="_blank"
+          >
+            <li>
+              COVID-19 Pandemic Led to Increase in Loneliness Around the World
+            </li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.pewresearch.org/short-reads/2022/01/13/share-of-those-65-and-older-who-are-tech-users-has-grown-in-the-past-decade/"
-              target="_blank"
-            >
-              <li>
-                Share Of Those 65 And Older Who Are Tech Users Has Grown in the
-                Past Decade
-              </li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6179015/"
+            target="_blank"
+          >
+            <li>The Complexity of Loneliness</li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://bcmj.org/news/statistics-canada-almost-5-seniors-long-term-care"
-              target="_blank"
-            >
-              <li>Statistics Canada: Almost 5% of Seniors in Long-term Care</li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.canada.ca/en/employment-social-development/programs/disability/arc/federal-report2011/section1.html"
+            target="_blank"
+          >
+            <li>Federal Disability Report 2011</li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.comfortlife.ca/retirement-communities/our-aging-population-statistics"
-              target="_blank"
-            >
-              <li>Our Aging Population: Statistics</li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.pewresearch.org/short-reads/2022/01/13/share-of-those-65-and-older-who-are-tech-users-has-grown-in-the-past-decade/"
+            target="_blank"
+          >
+            <li>
+              Share Of Those 65 And Older Who Are Tech Users Has Grown in the
+              Past Decade
+            </li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://classiclifecare.com/moments/5-tasks-seniors-need-help/"
-              target="_blank"
-            >
-              <li>5 Tasks Seniors Need Help With the Most</li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://bcmj.org/news/statistics-canada-almost-5-seniors-long-term-care"
+            target="_blank"
+          >
+            <li>Statistics Canada: Almost 5% of Seniors in Long-term Care</li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8525598/"
-              target="_blank"
-            >
-              <li>
-                Social Support, Isolation, Loneliness, and Health Among Older
-                Adults in the PRISM Randomized Controlled Trial
-              </li>
-            </a>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.comfortlife.ca/retirement-communities/our-aging-population-statistics"
+            target="_blank"
+          >
+            <li>Our Aging Population: Statistics</li>
+          </a>
 
-            <a
-              className="hover:text-blue-300 active:text-blue-600"
-              href="https://www.aplaceformom.com/senior-living-data/articles/caregiver-statistics"
-              target="_blank"
-            >
-              <li>
-                Caregiver Statistics: A Data Portrait of Family Caregiving in
-                2023
-              </li>
-            </a>
-          </ol>
-        </div>
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://classiclifecare.com/moments/5-tasks-seniors-need-help/"
+            target="_blank"
+          >
+            <li>5 Tasks Seniors Need Help With the Most</li>
+          </a>
+
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8525598/"
+            target="_blank"
+          >
+            <li>
+              Social Support, Isolation, Loneliness, and Health Among Older
+              Adults in the PRISM Randomized Controlled Trial
+            </li>
+          </a>
+
+          <a
+            className="hover:text-blue-300 active:text-blue-600"
+            href="https://www.aplaceformom.com/senior-living-data/articles/caregiver-statistics"
+            target="_blank"
+          >
+            <li>
+              Caregiver Statistics: A Data Portrait of Family Caregiving in 2023
+            </li>
+          </a>
+        </ol>
       </div>
     </div>
   );
