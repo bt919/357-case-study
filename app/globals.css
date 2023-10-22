@@ -3,25 +3,40 @@
 @tailwind utilities;
 
 :root {
+  --main-color: #7a52cc;
+  --bg-color: rgb(229, 231, 235);
+  --sub-color: #5c5c99;
+}
+
+:root.dark {
+  --main-color: rgb(165, 243, 252);
+  --bg-color: rgb(30, 41, 59);
+  --sub-color: rgb(111, 187, 196);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sub-color);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--main-color);
+}
+
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }

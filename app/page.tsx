@@ -66,8 +66,8 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="w-2/3 mt-6">
-        <h2 className="m-10 mb-4 ml-0 text-3xl text-purple-700 dark:text-cyan-200">
+      <div className="w-2/3 mt-8 flex flex-col items-center">
+        <h2 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
           Research
         </h2>
 
@@ -75,7 +75,10 @@ export default function Home() {
           Let us now turn our focus to what the current research says. We delved
           into some of the research in the introduction, but we wanted to gain a
           better understanding of our users, and we also wanted to look at the
-          current mobile applications available on the market.
+          current mobile applications available on the market. By looking at the
+          current research, we could better tailor our application to our users,
+          and it is crucial for crafting accurate user personas which we will be
+          doing later.
         </p>
 
         <p className="indent-12 text-lg p-4 pl-0">
@@ -83,6 +86,46 @@ export default function Home() {
           long-term care home. [7] Statcan data also reports many older people
           living alone -- up to 36.6% of Canadian women over the age of 85 live
           alone, and up to 21.8% of Canadian men over the age of 85 live alone.
+          [8]
+        </p>
+
+        <p className="indent-12 text-lg p-4 pl-0">
+          In terms of daily struggles, medications, personal care, and nutrition
+          are common challenges the elderly face. More specifically, getting
+          refills for medication can be tough, and so is taking medication
+          regularly. In terms of nutrition, eating healthy meals and doing so
+          regularly can be a challenge. [9]
+        </p>
+
+        <p className="indent-12 text-lg p-4 pl-0">
+          Let us now look at some of the physical, neurological, and
+          psychological issues that the elderly face. As we mentioned before,
+          the disability rates are high amongst the elderly as the graph below
+          shows. Some of tehse disabilities include mobility, hearing, seeing,
+          and memory issues. These may come in the form of low vision,
+          Alzheimer&apos;s, dementia, or arthritis. As a result of some of these
+          disabilities, medications can be missed, as previously mentioned, and
+          even meals can be missed. Research also says that nearly half of the
+          senior population (60 and over) reported feeling lonely, and about 25%
+          even felt isolated. [10] The express purpose of appname is to address
+          these issues by letting those close to the elderly have an easier way
+          to help and monitor them. We will discuss the user requirements and
+          features more closely in a bit.
+        </p>
+
+        <img
+          className="m-4"
+          src="/fig1_2.jpg"
+          alt="A graph that shows the positive correlation between age and disability rate"
+        ></img>
+        <p>Disability rates by age group [5]</p>
+
+        <p className="indent-12 text-lg p-4 pl-0 mt-8">
+          Finally, we note that nearly 17% of the U.S. population provide some
+          kind of care for someone they know (typically for loved ones), and
+          half of the recipients are parents. Some more interesting things to
+          note is that nearly three quarters of such caregivers are female, and
+          the average age of a caregiver is around 50 years old. [11]
         </p>
       </div>
     </main>
