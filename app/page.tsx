@@ -307,16 +307,116 @@ export default function Home() {
         </div>
 
         {/* ----------- Citations -------------*/}
-        <div className="flex flex-col items-center">
-          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+        <div className="flex flex-col items-center mt-8">
+          <h3 className="mt-8 text-2xl text-purple-500 dark:text-cyan-400 underline underline-offset-3">
             Citations
           </h3>
 
-          <p className="indent-12 text-lg p-4 pl-0 leading-8">
-            Let us conclude our research by looking at the current mobile
-            applications available on the market, and exploring the pros and
-            cons of these apps.
+          <p className="text-lg p-4 pl-0 leading-8">
+            Below are the articles and studies we used for the research portion
+            of the project.
           </p>
+
+          <ol className="list-decimal text-blue-500 flex flex-col gap-3">
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.macrotrends.net/countries/CAN/canada/life-expectancy"
+              target="_blank"
+            >
+              <li>Canada Life Expectancy 1950-2023</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www150.statcan.gc.ca/n1/pub/82-003-x/2023007/article/00001-eng.htm"
+              target="_blank"
+            >
+              <li>Immigrant Status and Loneliness Among Older Canadians</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.apa.org/news/press/releases/2022/05/covid-19-increase-loneliness"
+              target="_blank"
+            >
+              <li>
+                COVID-19 Pandemic Led to Increase in Loneliness Around the World
+              </li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6179015/"
+              target="_blank"
+            >
+              <li>The Complexity of Loneliness</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.canada.ca/en/employment-social-development/programs/disability/arc/federal-report2011/section1.html"
+              target="_blank"
+            >
+              <li>Federal Disability Report 2011</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.pewresearch.org/short-reads/2022/01/13/share-of-those-65-and-older-who-are-tech-users-has-grown-in-the-past-decade/"
+              target="_blank"
+            >
+              <li>
+                Share Of Those 65 And Older Who Are Tech Users Has Grown in the
+                Past Decade
+              </li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://bcmj.org/news/statistics-canada-almost-5-seniors-long-term-care"
+              target="_blank"
+            >
+              <li>Statistics Canada: Almost 5% of Seniors in Long-term Care</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.comfortlife.ca/retirement-communities/our-aging-population-statistics"
+              target="_blank"
+            >
+              <li>Our Aging Population: Statistics</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://classiclifecare.com/moments/5-tasks-seniors-need-help/"
+              target="_blank"
+            >
+              <li>5 Tasks Seniors Need Help With the Most</li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8525598/"
+              target="_blank"
+            >
+              <li>
+                Social Support, Isolation, Loneliness, and Health Among Older
+                Adults in the PRISM Randomized Controlled Trial
+              </li>
+            </a>
+
+            <a
+              className="hover:text-blue-300 active:text-blue-600"
+              href="https://www.aplaceformom.com/senior-living-data/articles/caregiver-statistics"
+              target="_blank"
+            >
+              <li>
+                Caregiver Statistics: A Data Portrait of Family Caregiving in
+                2023
+              </li>
+            </a>
+          </ol>
         </div>
       </div>
     </div>
