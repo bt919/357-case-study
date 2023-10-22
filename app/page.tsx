@@ -12,7 +12,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center p-24 pt-4 bg-gray-200 text-slate-900 dark:bg-slate-800 dark:text-gray-200">
+    <div className="flex min-h-screen flex-col items-center p-24 pt-4 bg-gray-200 text-slate-900 dark:bg-slate-800 dark:text-gray-200 selection:text-gray-200 selection:bg-purple-700 dark:selection:bg-cyan-200 dark:selection:text-slate-800">
       <div className="w-full flex justify-end gap-4">
         <a href="https://github.com/bt919/357-case-study" target="_blank">
           <img
@@ -60,6 +60,7 @@ export default function Home() {
         keep in touch with elderly people that you are taking care of."
       ></img>
 
+      {/* ----------- Introduction section -------------*/}
       <div className="w-2/3">
         <h2 className="m-10 mb-4 ml-0 text-3xl text-purple-700 dark:text-cyan-200">
           Introduction
@@ -116,11 +117,13 @@ export default function Home() {
         </p>
       </div>
 
+      {/* ----------- Research section -------------*/}
       <div className="w-2/3">
         <h2 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
           Research
         </h2>
 
+        {/* ----------- Disabilities subsection -------------*/}
         <div className="flex flex-col items-center">
           <h3 className="mt-2 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
             The Elderly, Disabilities, and Daily Challenges
@@ -179,6 +182,7 @@ export default function Home() {
           </p>
         </div>
 
+        {/* ----------- Other apps subsection -------------*/}
         <div className="flex flex-col items-center">
           <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
             Mobile Applications On the Market Today
@@ -221,6 +225,97 @@ export default function Home() {
             aiming to provide that extensive of features for each requirement,
             however, we seek to provide an all-in-one solution that adequately
             lets you do many of the things outlined above.
+          </p>
+        </div>
+
+        {/* ----------- User Personas section -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            User Personas
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
+          </p>
+        </div>
+
+        {/* ----------- Requirements section -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            Requirements
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
+          </p>
+        </div>
+
+        {/* ----------- Wireframes section -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            Wireframes
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
+          </p>
+        </div>
+
+        {/* ----------- User Flow section -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            User Flow
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
+          </p>
+        </div>
+
+        {/* ----------- Mockup section -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            Mockup
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
+          </p>
+        </div>
+
+        {/* ----------- Conclusion section -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            Conclusion
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
+          </p>
+        </div>
+
+        {/* ----------- Citations -------------*/}
+        <div className="flex flex-col items-center">
+          <h3 className="mt-8 mb-4 ml-0 mr-auto text-2xl text-purple-500 dark:text-cyan-400">
+            Citations
+          </h3>
+
+          <p className="indent-12 text-lg p-4 pl-0 leading-8">
+            Let us conclude our research by looking at the current mobile
+            applications available on the market, and exploring the pros and
+            cons of these apps.
           </p>
         </div>
       </div>
