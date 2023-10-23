@@ -235,7 +235,39 @@ export default function Home() {
           User Personas
         </h3>
 
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          The following user personas were made with the above search in mind,
+          and from our personal experiences.
+        </p>
+
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Our first persona is Cindy Smith who is meant to be an elderly woman
+          who resides in a retirement home. Cindy sometimes forgets to take her
+          meds, and she would like to be more connected with the people she
+          cares about.
+        </p>
+        <div className="w-full flex justify-center mt-2 mb-8">
+          <img src="/persona1.png" alt="A graphic showing a user persona"></img>
+        </div>
+
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Our second persona is Martin Briggs who lives alone at home. Martin is
+          forgetful, and has poor vision. Similar to Cindy, he would like to
+          keep in touch with his family.
+        </p>
+        <div className="w-full flex justify-center mt-2 mb-8">
+          <img src="/persona2.png" alt="A graphic showing a user persona"></img>
+        </div>
+
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Our third persona is John Briggs, and he is looking to take care of
+          his family -- specifically his father. John is 56 years old which is
+          around the average age of a caretaker. John is frustrated that he
+          cannot visit his father due to covid lockdowns.
+        </p>
+        <div className="w-full flex justify-center mt-2">
+          <img src="/persona3.png" alt="A graphic showing a user persona"></img>
+        </div>
       </div>
 
       {/* ----------- Requirements section -------------*/}
