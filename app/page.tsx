@@ -235,11 +235,7 @@ export default function Home() {
           User Personas
         </h3>
 
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">
-          Let us conclude our research by looking at the current mobile
-          applications available on the market, and exploring the pros and cons
-          of these apps.
-        </p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
       </div>
 
       {/* ----------- Requirements section -------------*/}
@@ -302,6 +298,17 @@ export default function Home() {
           Wireframes
         </h3>
 
+        <p className="text-lg p-4 pl-0 font-bold">
+          *Note: All the wireframes are available on{" "}
+          <a
+            className="text-blue-500 hover:text-blue-400 active:text-blue-600"
+            href="https://l.facebook.com/l.php?u=https%3A%2F%2Fexcalidraw.com%2F%3Ffbclid%3DIwAR0jwoBtD1B8nbo8RH4r2ut0ChAmLptmA1OogeZlMOx_Kp4DIgBMo6mzPJQ%23json%3D2dq4T2v8b65n-Bnqmoxf1%2CSip7m6eTZczv9h9jqPHa2w&h=AT2w35WHOx7W8N55zfeDhMcv1te0tnRSkCtK1gnhGx4_05TF6dep5SLMNqrArYIrTcD9_ax3pULVkEN7sX5o0R6nAmFTMdW3Wcpc3xqZfY6zid8UcmOkdLnYqbmbPA"
+            target="_blank"
+          >
+            Excalidraw
+          </a>
+        </p>
+
         <p className="indent-12 text-lg p-4 pl-0 leading-8">
           We have decided to use low-fidelity wireframes to get started on our
           design. One advantage of this is that we can quickly flesh out design
@@ -319,8 +326,33 @@ export default function Home() {
           specify whether you are logged in as a caretaker or as an elderly
           person being cared after.
         </p>
+        <div className="w-full flex justify-center mt-2 mb-4">
+          <img
+            src={isLight ? "/wire-light-1.png" : "wire-dark-1.png"}
+            alt="A wireframe showing the log-in/sign-in screen of Helm365"
+          ></img>
+        </div>
+
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          When a user is logged in as an elderly person being cared after, then
+          these are some of the screens that would be presented to them.
+        </p>
+        <div className="w-full flex justify-center mt-2 mb-4">
+          <img
+            src={isLight ? "wire-light-2.png" : "wire-dark-2.png"}
+            alt="A series of wireframes showing the interfaces available to an elderly person using Helm365"
+          ></img>
+        </div>
+
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          When a user is logged in as a caretaker, they are presented with some
+          of these following screens.
+        </p>
         <div className="w-full flex justify-center mt-2">
-          <img src={isLight ? "/wire-light-1.png" : "wire-dark-1.png"}></img>
+          <img
+            src={isLight ? "wire-light-3.png" : "wire-dark-3.png"}
+            alt="A series of wireframes showing the interfaces available to a caretaker using Helm365."
+          ></img>
         </div>
       </div>
 
