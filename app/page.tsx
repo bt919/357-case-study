@@ -43,8 +43,8 @@ export default function Home() {
         Case Study: How UI/UX Can Help The Elderly
       </h1>
 
-      <p className="m-2 text-lg">first_name last_name student_id</p>
-      <p className="mb-4 text-lg">first_name last_name student_id</p>
+      <p className="m-2 text-lg">Barthan Thirunavukarasu (40098158)</p>
+      <p className="mb-4 text-lg">Apostolos Hatzievagelou (40158311)</p>
 
       <img
         className="visible dark:hidden"
