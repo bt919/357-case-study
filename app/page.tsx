@@ -303,10 +303,25 @@ export default function Home() {
         </h3>
 
         <p className="indent-12 text-lg p-4 pl-0 leading-8">
-          Let us conclude our research by looking at the current mobile
-          applications available on the market, and exploring the pros and cons
-          of these apps.
+          We have decided to use low-fidelity wireframes to get started on our
+          design. One advantage of this is that we can quickly flesh out design
+          ideas, and since they&apos;re low effort, we don&apos;t have to fully
+          commit to them. These kinds of wireframes can also help with
+          higher-level design choices such as what kind of navigation we should
+          use (e.g., burger menu vs tab menu). However, lower-level design
+          details will be glossed over, but refined during mockups which are
+          typiclaly high-fidelity.
         </p>
+
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Here is what users are initially presented with when they install and
+          open the Helm365 app. The idea is that when you sign up, you can
+          specify whether you are logged in as a caretaker or as an elderly
+          person being cared after.
+        </p>
+        <div className="w-full flex justify-center mt-2">
+          <img src={isLight ? "/wire-light-1.png" : "wire-dark-1.png"}></img>
+        </div>
       </div>
 
       {/* ----------- User Flow section -------------*/}
@@ -315,11 +330,7 @@ export default function Home() {
           User Flow
         </h3>
 
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">
-          Let us conclude our research by looking at the current mobile
-          applications available on the market, and exploring the pros and cons
-          of these apps.
-        </p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
       </div>
 
       {/* ----------- Mockup section -------------*/}
@@ -328,11 +339,7 @@ export default function Home() {
           Mockup
         </h3>
 
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">
-          Let us conclude our research by looking at the current mobile
-          applications available on the market, and exploring the pros and cons
-          of these apps.
-        </p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
       </div>
 
       {/* ----------- Conclusion section -------------*/}
@@ -341,11 +348,7 @@ export default function Home() {
           Conclusion
         </h3>
 
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">
-          Let us conclude our research by looking at the current mobile
-          applications available on the market, and exploring the pros and cons
-          of these apps.
-        </p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
       </div>
 
       {/* ----------- Citations -------------*/}
