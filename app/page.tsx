@@ -389,13 +389,6 @@ export default function Home() {
       </div>
 
       {/* ----------- User Flow section -------------*/}
-      <div className="w-2/3">
-        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
-          User Flow
-        </h3>
-
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
-      </div>
 
       {/* ----------- Mockup section -------------*/}
       <div className="w-2/3">
@@ -403,17 +396,28 @@ export default function Home() {
           Mockup
         </h3>
 
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
+        <p className="indent-12 text-lg p-4 pl-0 leading-8">
+          Here are the mockups done using figma. We put a lot of emphasis on
+          keeping the design minimalistic and easy to navigate through. The
+          mockups also helped us flesh out some of the design choices. For
+          example, one choice we made was to put the onus to add someone on
+          caretakers, and not on the elderly person using the app.
+        </p>
+
+        <div className="flex justify-between">
+          <img src="mock1.png"></img>
+          <img src="mock2.png"></img>
+          <img src="mock3.png"></img>
+        </div>
+
+        <div className="flex justify-between mt-8">
+          <img src="mock4.png"></img>
+          <img src="mock5.png"></img>
+          <img src="mock6.png"></img>
+        </div>
       </div>
 
       {/* ----------- Conclusion section -------------*/}
-      <div className="w-2/3">
-        <h3 className="m-10 mb-4 ml-0 mr-auto text-3xl text-purple-700 dark:text-cyan-200">
-          Conclusion
-        </h3>
-
-        <p className="indent-12 text-lg p-4 pl-0 leading-8">To be done soon.</p>
-      </div>
 
       {/* ----------- Citations -------------*/}
       <div className="w-2/3 flex flex-col items-center mt-8">
